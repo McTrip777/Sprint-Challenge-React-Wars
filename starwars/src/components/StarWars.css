@@ -1,14 +1,22 @@
+.allCards{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
 .card{
     display:flex;
     flex-direction: column;
+    margin:0 auto 3rem;
+    width:25rem;
     background-color: white;
-    margin: 0 15rem 2rem;
     border-radius:10px;
 }
 
 h2{
-    color:#443e3e;
+    color:white;
+    padding: .7rem 0;
     margin-bottom:.7rem;
+    background-color: #443e3e;
 }
 p{
     margin:.5rem;

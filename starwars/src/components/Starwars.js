@@ -3,7 +3,7 @@ import StarWarsChar from './StarWarsChar'
 
 const StarWars = props => {
     return (
-      <div>
+      <div className='allCards'>
         {props.character.map((char, index) => (
             <StarWarsChar key={index} character={char} />
             ))}
