@@ -1,9 +1,12 @@
 import React from 'react'
+import './StarWars.css'
+
 
 const StarWarsChar = props => {
     return (
-        <div>
-            <h2><strong>Name:</strong> { props.character.name }</h2>
+        <div className="allCards">
+          <div className='card'>
+            <h2>{ props.character.name }</h2>
             <p><strong>DOB:</strong> { props.character.birth_year }</p>
             <p><strong>Height:</strong> { props.character.height }</p>
             <p><strong>Mass:</strong> { props.character.mass }</p>
@@ -11,8 +14,9 @@ const StarWarsChar = props => {
             <p><strong>Skin Color:</strong> { props.character.skin_color }</p>
             <p><strong>Eye Color:</strong> { props.character.eye_color }</p>
             <p><strong>Gender:</strong> { props.character.gender }</p>
-            <p><a href='{ props.character.homeworld }'><strong>Home World</strong></a></p>
-            <p><a href='{ props.character.species }'><strong>Species</strong></a></p>
+            <p><strong>Home World: </strong>{ props.character.homeworld }</p>
+            <p><strong>Species: </strong>{ props.character.species }</p>
+          </div>
         </div>
     )
 

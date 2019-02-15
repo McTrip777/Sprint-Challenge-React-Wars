@@ -1,0 +1,15 @@
+.card{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0 15rem 2rem;
+    border-radius:10px;
+}
+
+h2{
+    color:#443e3e;
+    margin-bottom:.7rem;
+}
+p{
+    margin:.5rem;
+}
